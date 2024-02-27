@@ -44,7 +44,7 @@ const calculator = ()=>{
         return;
     }
 
-    let result = calculate(a,b,operation);
+    let result = calculate(input1,input2,operation);
 
     console.log(`Result: ${result}`);
 
