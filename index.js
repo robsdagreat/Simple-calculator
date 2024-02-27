@@ -39,9 +39,9 @@ const calculator = ()=>{
 
     const input2 = parseInt(prompt("Please enter the second number:"));
 
-    if(isNaN(num1) || isNaN(num2)){
+    if(isNaN(input1) || isNaN(input2)){
         console.log("please enter a valid number ");
-
+        return;
     }
 
     let result = calculate(a,b,operation);
